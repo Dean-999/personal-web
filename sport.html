@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/sport.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletic Excellence - Dean Shen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Optimized Glass Environment -->
+    <div class="glass-environment">
+        <div class="ribbon-layer">
+            <div class="ribbon ribbon-1" style="--r:-18deg"></div>
+            <div class="ribbon ribbon-2" style="--r:22deg"></div>
+            <div class="ribbon ribbon-3" style="--r:5deg"></div>
+        </div>
+        <!-- SVG flowing ribbon lines -->
+        <svg class="ribbon-svg-layer" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+                <linearGradient id="ribbonGradientA" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="rgba(167, 139, 250, 0.9)"/>
+                    <stop offset="50%" stop-color="rgba(103, 232, 249, 0.9)"/>
+                    <stop offset="100%" stop-color="rgba(251, 113, 133, 0.9)"/>
+                </linearGradient>
+                <linearGradient id="ribbonGradientB" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="rgba(191, 219, 254, 0.9)"/>
+                    <stop offset="50%" stop-color="rgba(196, 181, 253, 0.9)"/>
+                    <stop offset="100%" stop-color="rgba(244, 114, 182, 0.9)"/>
+                </linearGradient>
+            </defs>
+
+            <!-- Group 1: slow vertical float -->
+            <g class="ribbon-group slow" data-speed="0.25">
+                <path class="ribbon-path ribbon-wave"
+                      d="M -50 200 C 150 120, 350 260, 550 180 S 950 220, 1100 160"
+                      stroke="url(#ribbonGradientA)" stroke-width="6" vector-effect="non-scaling-stroke"/>
+                <path class="ribbon-path ribbon-wave"
+                      d="M -60 240 C 140 200, 360 300, 520 240 S 920 280, 1120 220"
+                      stroke="url(#ribbonGradientB)" stroke-width="2" vector-effect="non-scaling-stroke"/>
+            </g>
+
+            <!-- Group 2: horizontal float, medium speed -->
+            <g class="ribbon-group alt" data-speed="0.45">
+                <path class="ribbon-path ribbon-wave alt"
+                      d="M -120 520 C 140 460, 380 600, 640 520 S 1080 560, 1200 500"
+                      stroke="url(#ribbonGradientA)" stroke-width="4" vector-effect="non-scaling-stroke"/>
+                <path class="ribbon-path ribbon-wave"
+                      d="M -100 560 C 120 540, 400 640, 700 560 S 1100 620, 1220 540"
+                      stroke="url(#ribbonGradientB)" stroke-width="1" vector-effect="non-scaling-stroke"/>
+            </g>
+
+            <!-- Group 3: faster float, upper area -->
+            <g class="ribbon-group fast" data-speed="0.7">
+                <path class="ribbon-path ribbon-wave"
+                      d="M -100 110 C 180 70, 440 150, 700 110 S 1150 130, 1300 100"
+                      stroke="url(#ribbonGradientA)" stroke-width="3" vector-effect="non-scaling-stroke"/>
+            </g>
+
+            <!-- Gloss overlay strokes for glassy feel -->
+            <g class="ribbon-gloss-overlay">
+                <path class="ribbon-path" d="M -50 200 C 150 120, 350 260, 550 180 S 950 220, 1100 160" stroke="rgba(255,255,255,0.55)" stroke-width="1.2" vector-effect="non-scaling-stroke"/>
+                <path class="ribbon-path" d="M -120 520 C 140 460, 380 600, 640 520 S 1080 560, 1200 500" stroke="rgba(255,255,255,0.45)" stroke-width="1" vector-effect="non-scaling-stroke"/>
+            </g>
+        </svg>
+        <div class="primary-glass-shape"></div>
+        <div class="primary-glass-shape"></div>
+        <div class="fluid-glass-liquid"></div>
+    </div>
+
+    <!-- Back to Home Button -->
+    <a href="index.html" class="back-button">← Back to Home</a>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-subtitle">Athletic Excellence shaping</div>
+                <h1 class="hero-title">
+                    The <span class="accent">Swimmer's Path</span>
+                </h1>
+                <p class="hero-description">
+                    Swimming has been more than a sport to me; it has been a journey of growth and development. Through everyday's hard work, training, ans competition in the water, I have learned resilience, discipline, and perseverance. Each stroke has shaped not only my skills and body shape, but also changed my character.
+                </p>
+                <p class="hero-description">
+                    Beyond personal progress, swimming has also given me the chance to lead others and serve my community. Teaching younger students, working as a lifeguard, and supporting the sports medicine team have taught me that swimming is not only about personal achievement, but also about teamwork and service.
+                </p>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-glass-shape"></div>
+                <!-- Rafiki SVG Illustration -->
+                <div class="rafiki-illustration">
+                    <img src="images/rafiki.svg" alt="Swimming illustration" class="rafiki-svg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Glass Stats Section -->
+        <section class="stats-section">
+            <div class="stat-glass-card">
+                <span class="stat-number">6+ Years</span>
+                <span class="stat-label">Swimming Experience</span>
+            </div>
+            <div class="stat-glass-card">
+                <span class="stat-number">Swimming Club</span>
+                <span class="stat-label">Teaching Role</span>
+            </div>
+            <div class="stat-glass-card">
+                <span class="stat-number">Lifeguard</span>
+                <span class="stat-label">Safety Leadership</span>
+            </div>
+        </section>
+
+        <!-- Backed By Section -->
+        <section class="backed-section">
+            <h2 class="backed-title">Supported By</h2>
+            <div class="partners-grid">
+                <div class="glass-partner-item">Zhuo Cheng Feng Club</div>
+                <div class="glass-partner-item">Darlington Lower School</div>
+                <div class="glass-partner-item">Rome Lifeguard</div>
+                <div class="glass-partner-item">Sports Medicine Team</div>
+            </div>
+        </section>
+
+        <!-- Swimming Club Leadership -->
+        <section class="content-section" id="swimming-club">
+            <div class="section-header">
+                <h2 class="section-title">Swimming Club Leadership</h2>
+                <p class="section-subtitle">Teaching and guiding younger students in fundamental swimming skills while maintaining safety standards in the pool.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="glass-content-card" tabindex="0" role="article" aria-label="Swimming Club Teaching - Instructing lower school students">
+                    <div class="canvas-reveal-container">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                    <div class="card-header">
+                        <h3 class="card-title">Swimming Club Teaching</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>The swimming club teaches lower school students basic swimming skills through interest-based lessons, creating a supportive learning environment for young swimmers.</p>
+                        <ul>
+                            <li>Skill Development - Teaching basic strokes and water confidence</li>
+                            <li>Student Assessment - Tracking progress and providing feedback</li>
+                            <li>Mentorship - Building confidence and encouraging young swimmers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View My Photos Button -->
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="#" class="view-photos-btn" onclick="openPhotos('swimming-club')">
+                    <span>View My Photos</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Athletic Portfolio - Training Experience -->
+        <section class="content-section" id="training">
+            <div class="section-header">
+                <h2 class="section-title">Athletic Portfolio</h2>
+                <p class="section-subtitle">My comprehensive training experience crossing six years of dedicated swimming development, from beginner to competitive level.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="glass-content-card" tabindex="0" role="article" aria-label="Swimming Training Experience - Six years of development">
+                    <div class="canvas-reveal-container">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                    <div class="card-header">
+                        <h3 class="card-title">My Training Experience</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Six years of hard-working swimming training from beginner to competitive level, mastering all stroke and developing technical excellence in water performance.</p>
+                        <ul>
+                            <li>Most proficient Strokes - Freestyle, butterfly</li>
+                            <li>Technical Excellence - Continuous refinement of technique</li>
+                            <li>Competition Experience - Rich competitive background</li>
+                            <li>Performance Training - High-intensity training plans</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View My Photos Button -->
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="#" class="view-photos-btn" onclick="openPhotos('training')">
+                    <span>View My Photos</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Swimming Competition Timeline -->
+        <section class="content-section" id="swimming-timeline">
+            <div class="section-header">
+                <h2 class="section-title">Competition Timeline</h2>
+                <p class="section-subtitle">A chronological record of my swimming competitions, showcasing progress and achievements throughout my swimming journey.</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2024</div>
+                        <div class="timeline-event">
+                            <h3 class="timeline-event-title">School Varsity Championships</h3>
+                            <div class="timeline-event-details">
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Event:</span>
+                                    <span class="timeline-value">100m Freestyle</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Time:</span>
+                                    <span class="timeline-value highlight">58.32s</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Place:</span>
+                                    <span class="timeline-value">2nd Place</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">November 2023</div>
+                        <div class="timeline-event">
+                            <h3 class="timeline-event-title">Regional Swimming Meet</h3>
+                            <div class="timeline-event-details">
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Event:</span>
+                                    <span class="timeline-value">50m Butterfly</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Time:</span>
+                                    <span class="timeline-value highlight">27.15s</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Place:</span>
+                                    <span class="timeline-value">3rd Place</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2023</div>
+                        <div class="timeline-event">
+                            <h3 class="timeline-event-title">Summer Invitational</h3>
+                            <div class="timeline-event-details">
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Event:</span>
+                                    <span class="timeline-value">200m Freestyle</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Time:</span>
+                                    <span class="timeline-value highlight">2:08.45</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Place:</span>
+                                    <span class="timeline-value">1st Place</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">February 2023</div>
+                        <div class="timeline-event">
+                            <h3 class="timeline-event-title">Inter-School Competition</h3>
+                            <div class="timeline-event-details">
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Event:</span>
+                                    <span class="timeline-value">100m Butterfly</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Time:</span>
+                                    <span class="timeline-value highlight">1:02.18</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Place:</span>
+                                    <span class="timeline-value">2nd Place</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">October 2022</div>
+                        <div class="timeline-event">
+                            <h3 class="timeline-event-title">Fall Championships</h3>
+                            <div class="timeline-event-details">
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Event:</span>
+                                    <span class="timeline-value">50m Freestyle</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Time:</span>
+                                    <span class="timeline-value highlight">26.89s</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Place:</span>
+                                    <span class="timeline-value">4th Place</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 6 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2022</div>
+                        <div class="timeline-event">
+                            <h3 class="timeline-event-title">Spring Swimming Meet</h3>
+                            <div class="timeline-event-details">
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Event:</span>
+                                    <span class="timeline-value">100m Freestyle</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Time:</span>
+                                    <span class="timeline-value highlight">1:00.45</span>
+                                </div>
+                                <div class="timeline-detail-row">
+                                    <span class="timeline-label">Place:</span>
+                                    <span class="timeline-value">3rd Place</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Athletic Achievements -->
+        <section class="content-section" id="achievements">
+            <div class="section-header">
+                <h2 class="section-title">Athletic Achievements</h2>
+                <p class="section-subtitle">My awards and recognitions earned through six years of dedicated swimming training and competitive excellence.</p>
+            </div>
+            
+            <div class="cards-grid">
+                <div class="glass-content-card" tabindex="0" role="article" aria-label="Swimming Awards - Competition achievements and recognition">
+                    <div class="canvas-reveal-container">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                    <div class="card-header">
+                        <h3 class="card-title">My Awards</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Awards earned through competitive swimming participation and other swimming related activities.</p>
+                        <ul>
+                            <li>Awards will be added here - Please provide your specific awards and achievements</li>
+                            <li>Competition Recognition - Top 3 players in school varsity team competitions</li>
+                            <li>Safety Certifications - Lifeguard and first aid achievements</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View My Photos Button -->
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="#" class="view-photos-btn" onclick="openPhotos('achievements')">
+                    <span>View My Photos</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Swimming Activities -->
+        <section class="content-section" id="activities">
+            <div class="section-header">
+                <h2 class="section-title">Swimming Activities</h2>
+                <p class="section-subtitle">My current swimming activities including lifeguard service and teaching younger students.</p>
+            </div>
+            
+            <div class="cards-grid two-grid">
+                <div class="glass-content-card" tabindex="0" role="article" aria-label="Lifeguard Service - Water safety and emergency response">
+                    <div class="canvas-reveal-container">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                    <div class="card-header">
+                        <h3 class="card-title">Lifeguard Service</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Currently serving as a certified lifeguard, ensuring pool safety and dealing with emergency response capabilities.</p>
+                        <ul>
+                            <li>Pool Surveillance - Continuous monitoring of swimming activities</li>
+                            <li>Emergency Response - Quick reaction to water emergencies and rescues</li>
+                            <li>First Aid Certification - CPR and emergency medical procedures</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="glass-content-card" tabindex="0" role="article" aria-label="Sports Medicine Team - Health and injury prevention">
+                    <div class="canvas-reveal-container">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                    <div class="card-header">
+                        <h3 class="card-title">Sports Medicine Team</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Collaborating with the Sports Medicine Team and learn to ensure athlete health, injury prevention, and optimal performance through medical expertise and also acupuncture and tuina treatments.</p>
+                        <ul>
+                            <li>Health Assessments - Regular monitoring of athlete wellness</li>
+                            <li>Injury Prevention - Implementing proper warm-up and technique skills</li>
+                            <li>Recovery Support - using acupuncture and tuina treatments to help athletes recover from injuries</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View My Photos Button -->
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="#" class="view-photos-btn" onclick="openPhotos('activities')">
+                    <span>View My Photos</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Triathlon Section -->
+        <section class="content-section" id="triathlon">
+            <div class="section-header">
+                <h2 class="section-title">Triathlon Journey</h2>
+                <p class="section-subtitle">Embracing the ultimate endurance challenge through swimming, cycling, and running—pushing physical and mental limits to achieve personal excellence.</p>
+            </div>
+            
+            <div class="cards-grid two-grid">
+                <div class="glass-content-card" tabindex="0" role="article" aria-label="Triathlon Training - Comprehensive multi-sport preparation">
+                    <div class="canvas-reveal-container">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                    <div class="card-header">
+                        <h3 class="card-title">Triathlon Training</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Comprehensive training across three disciplines, building endurance, strength, and mental resilience through structured multi-sport preparation.</p>
+                        <ul>
+                            <li>Swimming Training - Open water technique and continue training in the pool</li>
+                            <li>Cycling Training - Road cycling, hill climbs, and distance rides with professional coach</li>
+                            <li>Running Training - Long-distance runs, interval training, and pace work Chinese decathlon champion coach</li>
+                            <li>Endurance Building - Progressive training to build overall stamina</li>
+                            <li>Nutrition & Recovery - Scientific recipes and effective recovery methods</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="glass-content-card" tabindex="0" role="article" aria-label="Triathlon Competitions - Race experiences and achievements">
+                    <div class="canvas-reveal-container">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                    <div class="card-header">
+                        <h3 class="card-title">Competition Experience</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Participating in triathlon competitions, testing skills across all three disciplines and experiencing the unique challenges of multi-sport racing.</p>
+                        <ul>
+                            <li>Open Water Swimming - Navigating natural water conditions</li>
+                            <li>Race Preparation - Pre-race planning and strategy development</li>
+                            <li>Cycling Performance - Maintaining pace and energy management</li>
+                            <li>Running Endurance - Overcome fatigue to finish the race with good performance</li>
+                            <li>Personal Records - Achieve new performance goals</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards-grid" style="margin-top: 30px;">
+                <div class="glass-content-card" tabindex="0" role="article" aria-label="Triathlon Growth - Personal development and lessons learned">
+                    <div class="canvas-reveal-container">
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                        <div class="particle"></div>
+                    </div>
+                    <div class="card-header">
+                        <h3 class="card-title">Growth & Lessons Learned</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Triathlon has taught me invaluable lessons about perseverance, discipline, and the power of pushing beyond limits. Each training session and race has contributed to my personal growth.</p>
+                        <ul>
+                            <li><strong>Mental Resilience</strong> - Learning to push through physical exhaustion and mental barriers</li>
+                            <li><strong>Time Management</strong> - Balancing training across three sports with academic and personal commitments</li>
+                            <li><strong>Goal Setting</strong> - Breaking down long-term goals into achievable training milestones</li>
+                            <li><strong>Self-Discipline</strong> - Maintaining consistent training even when motivation wanes</li>
+                            <li><strong>Adaptability</strong> - Adjusting to different conditions and unexpected challenges during races</li>
+                            <li><strong>Recovery & Wellness</strong> - Learning the critical role of rest, nutrition, and recovery in performance</li>
+                            <li><strong>Community Support</strong> - Experiencing the camaraderie and encouragement of the triathlon community</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View My Photos Button -->
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="#" class="view-photos-btn" onclick="openPhotos('triathlon')">
+                    <span>View My Photos</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Personal Story Section -->
+        <section class="story-section">
+            <div class="story-content">
+                <div class="story-quote">
+                    Swimming has taught me that the greatest victories is not coming from competing against others, but from pushing beyond my own limits and helping others discover their potential in the water.
+                </div>
+                <div class="story-author">— My Swimming Journey</div>
+                <div class="story-description">
+                    My story with swimming began as an unexpected encounter. If you ever saw a picture of me when I was little, you would see a chubby and innocent boy who was scared to take off his shirt in front of others because everyone laughed at my big belly. I was also afraid of drowning, so swimming definitely didn't seem like a good choice for me.
+                </div>
+                
+                <div class="story-description" style="margin-top: 25px;">
+                    The turning point came during a family trip with one of my mother's friends. Her son, who was older than me and an excellent swimmer, went with us. When we arrived at the hotel pool, I sat on the edge and refused to go in no matter how people tried to persuade me. Suddenly, that boy lifted me from behind and threw me into the water. As someone who didn't know how to swim, I panicked and splashed around, trying desperately to get out. But he quickly pulled me up, held my hands, and guided me slowly through the water to help me relax and feel the fun of it. Surprisingly, my fear began to fade, and I even felt… comfortable. This makes me have interest in swimming and lets me actually try swimming.
+                </div>
+                
+                <div class="story-description" style="margin-top: 25px;">
+                    After receiving systematic swimming training, I eventually got rid of my big belly and even developed a bit of shape. Swimming not only improved my physical health but also made me more confident to get better and better game results. Long-term practice helped me concentrate better in class, easily pass physical fitness tests, and taught me resilience and persistence. Swimming showed me the importance of sports and how much it can positively shape my life. I think this is the most valuable lesson I learn and an important reason for me to stick with swimming for the rest of my life.
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // View My Photos Button Click Event
+        function openPhotos(section) {
+            const photoPages = {
+                'swimming-club': 'images/Swimming Club Leadership/index.html',
+                'training': 'images/Athletic Portfolio/index.html', 
+                'achievements': 'images/Athletic Achievements/index.html',
+                'activities': 'images/Swimming Activities/index.html',
+                'triathlon': 'images/Triathlon/index.html'
+            };
+            
+            const pagePath = photoPages[section];
+            if (pagePath) {
+                // Open the photo gallery page in a new tab
+                window.open(pagePath, '_blank');
+            } else {
+                // Fallback: show alert if section not found
+                alert('Photo gallery for this section is coming soon!');
+            }
+        }
+
+        // Scroll-triggered animations using Intersection Observer
+        document.addEventListener('DOMContentLoaded', function() {
+            // Create observer for scroll animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationPlayState = 'running';
+                        entry.target.classList.add('animate-in');
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all cards and sections
+            const animatedElements = document.querySelectorAll(
+                '.glass-content-card, .stat-glass-card, .timeline-item, .glass-partner-item, .content-section, .backed-section, .story-section'
+            );
+            
+            animatedElements.forEach((el, index) => {
+                // Reset animation state
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(30px)';
+                el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+                el.style.transitionDelay = `${index * 0.1}s`;
+                
+                observer.observe(el);
+                
+                // Trigger animation when visible
+                const triggerAnimation = () => {
+                    if (el.getBoundingClientRect().top < window.innerHeight) {
+                        el.style.opacity = '1';
+                        el.style.transform = 'translateY(0)';
+                    }
+                };
+                
+                // Initial check
+                triggerAnimation();
+                
+                // Check on scroll
+                window.addEventListener('scroll', triggerAnimation);
+            });
+
+            // Add ripple effect to buttons
+            function addRippleEffect(button) {
+                button.addEventListener('click', function(e) {
+                    const ripple = document.createElement('span');
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height);
+                    const x = e.clientX - rect.left - size / 2;
+                    const y = e.clientY - rect.top - size / 2;
+                    
+                    ripple.style.cssText = `
+                        position: absolute;
+                        width: ${size}px;
+                        height: ${size}px;
+                        left: ${x}px;
+                        top: ${y}px;
+                        background: rgba(255, 255, 255, 0.4);
+                        border-radius: 50%;
+                        transform: scale(0);
+                        animation: ripple 0.6s ease-out;
+                        pointer-events: none;
+                    `;
+                    
+                    this.style.position = 'relative';
+                    this.style.overflow = 'hidden';
+                    this.appendChild(ripple);
+                    
+                    setTimeout(() => ripple.remove(), 600);
+                });
+            }
+
+            // Add ripple to all buttons
+            document.querySelectorAll('.view-photos-btn, .back-button').forEach(btn => {
+                addRippleEffect(btn);
+            });
+
+            // Add subtle parallax effect to hero section
+            let lastScroll = 0;
+            window.addEventListener('scroll', () => {
+                const scrollY = window.scrollY;
+                const heroVisual = document.querySelector('.hero-visual');
+                const heroContent = document.querySelector('.hero-content');
+                
+                if (heroVisual && scrollY < window.innerHeight) {
+                    heroVisual.style.transform = `translateY(${scrollY * 0.3}px)`;
+                    heroContent.style.transform = `translateY(${scrollY * 0.1}px)`;
+                }
+                
+                lastScroll = scrollY;
+            });
+
+            // Add number counting animation for stats
+            function animateNumber(element, target, duration = 2000) {
+                const isText = isNaN(target);
+                if (isText) {
+                    element.textContent = target;
+                    return;
+                }
+                
+                const start = 0;
+                const increment = target / (duration / 16);
+                let current = start;
+                
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        element.textContent = target;
+                        clearInterval(timer);
+                    } else {
+                        element.textContent = Math.floor(current);
+                    }
+                }, 16);
+            }
+
+            // Observe stat numbers for counting animation
+            const statObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+                        entry.target.classList.add('counted');
+                        const text = entry.target.textContent.trim();
+                        // If it's a number, animate it
+                        if (text.includes('+') || text.includes('Years')) {
+                            // Handle text stats differently
+                            entry.target.style.animation = 'numberPop 0.5s ease-out';
+                        }
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            document.querySelectorAll('.stat-number').forEach(stat => {
+                statObserver.observe(stat);
+            });
+
+            // Add hover sound effect simulation (visual feedback)
+            document.querySelectorAll('.glass-content-card, .stat-glass-card').forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+                });
+            });
+
+            // Add smooth scroll behavior
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+
+        // Add CSS for ripple animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+            
+            @keyframes numberPop {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.1); }
+                100% { transform: scale(1); }
+            }
+            
+            .animate-in {
+                animation-play-state: running !important;
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>

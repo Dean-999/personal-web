@@ -1,0 +1,75 @@
+╔═══════════════════════════════════════════════════════════╗
+║       GITHUB PAGES - FILES TO UPLOAD                      ║
+╚═══════════════════════════════════════════════════════════╝
+
+📁 LOCATION: /Users/deanshen/Desktop/project/my project/personal web clean
+
+Upload EVERYTHING from this folder to GitHub:
+
+✅ ROOT HTML FILES (5 files):
+   • index.html            (Homepage - Landing page)
+   • academic.html         (Academic achievements)
+   • personal.html         (Personal interests)
+   • sport.html            (Sports accomplishments)
+   • extracurricular.html  (Extracurricular activities)
+
+✅ DOCUMENTATION:
+   • README.md             (Project documentation)
+   • DEPLOYMENT-GUIDE.md   (Step-by-step guide)
+
+✅ CSS FOLDER (5 files):
+   css/
+   ├── landing.css
+   ├── academic.css
+   ├── personal.css
+   ├── sport.css
+   └── extracurricular.css
+
+✅ JAVASCRIPT FOLDER (7 files):
+   js/
+   ├── gl-matrix-min.js
+   ├── infinite-menu.js
+   ├── logo-loop.js
+   ├── landing.js
+   ├── landing-init.js
+   ├── script.js
+   └── tech-travel-map.js
+
+✅ IMAGES FOLDER (entire folder with subfolders):
+   images/
+   ├── Dean.PNG
+   ├── portrait.JPG
+   ├── academic.svg
+   ├── rafiki.svg
+   ├── IMG_9192.svg
+   ├── background.png
+   ├── name.png
+   ├── Frame 1.png
+   ├── 渐变.png
+   ├── image/            (album covers & personal photos)
+   └── movies/           (movie posters)
+
+═══════════════════════════════════════════════════════════
+
+❌ DO NOT UPLOAD THESE OLD FOLDERS:
+   • landing page/
+   • academic page/
+   • personal page/
+   • sport page/
+   • Extracurricular Activities page/
+
+═══════════════════════════════════════════════════════════
+
+🎯 QUICK START:
+
+1. Create new GitHub repository (Public)
+2. Upload all files listed above
+3. Go to Settings → Pages
+4. Enable GitHub Pages (main branch, root folder)
+5. Wait 2-3 minutes
+6. Visit your site!
+
+═══════════════════════════════════════════════════════════
+
+✨ EVERYTHING IS READY FOR DEPLOYMENT!
+
