@@ -1,0 +1,10 @@
+{
+  "$schema": "https://shadcn-vue.com/schema.json",
+  "style": "default",
+  "typescript": false,
+  "framework": "vanilla",
+  "aliases": {
+    "components": "./components",
+    "utils": "./lib/utils"
+  }
+}
